@@ -1,0 +1,13 @@
+.logo {
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+}
+
+.logo-side {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+  background-color: rgb(230, 78, 78);
+}
