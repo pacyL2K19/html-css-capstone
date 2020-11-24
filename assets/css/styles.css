@@ -58,3 +58,8 @@ header {
   border: 1px solid white;
   height: 35px;
 }
+
+.filter {
+  margin-top: 80px;
+  background-color: rgb(192, 172, 172);
+}
