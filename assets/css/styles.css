@@ -52,3 +52,9 @@ header {
   width: 200px;
   border-radius: 100px;
 }
+
+.input-footer {
+  background-color: transparent;
+  border: 1px solid white;
+  height: 35px;
+}
