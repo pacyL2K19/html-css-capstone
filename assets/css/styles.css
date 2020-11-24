@@ -32,3 +32,23 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+.elmt-1 {
+  background-color: rgb(230, 78, 78);
+}
+
+.elmt-2 {
+  background-color: rgb(168, 145, 145);
+}
+
+.elmt-3 {
+  background-color: rgb(136, 151, 214);
+}
+
+.elmt-1 img,
+.elmt-2 img,
+.elmt-3 img {
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+}
