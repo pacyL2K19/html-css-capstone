@@ -11,3 +11,24 @@
 header {
   background-color: rgb(230, 78, 78);
 }
+
+.search {
+  background-color: rgba(250, 250, 250, 0.7);
+  border: none;
+  border-radius: 10px;
+}
+
+.btn-submit {
+  width: 100%;
+}
+
+.btn-how {
+  width: 30%;
+}
+
+.header {
+  background-image: url(../img/backimage1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
