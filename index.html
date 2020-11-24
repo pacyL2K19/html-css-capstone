@@ -29,7 +29,7 @@
         <div class="py-5 px-2 d-flex flex-column header">
             <h2 class="h2 text-light text-center font-weight-bold mt-5 uppercase">FIND AN HOUSE TO BUY OR FOR RENT EASYLY WITH<br />zUA lOPANGO</h2>
             <div class="px-3 py-3 mb-3 search">
-                <form>
+                <form method="POST" action="results.html">
                     <div class="form-group">
                       <label for="exampleInputEmail1" class="font-weight-bold">SEARCH BY KEY WORDS</label>
                       <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
@@ -37,9 +37,9 @@
                     <button type="submit" class="btn btn-danger btn-submit">SEARCH</button>
                 </form>
             </div>
-            <button type="button" class="btn mb-5 mt-2 btn-how d-flex mx-auto btn-light">How it works</button>
+            <button type="button" class="btn mb-5 mt-2 btn-how d-flex mx-auto btn-light"><a href="#details">How it works</a></button>
         </div>
-        <div class="details py-5">
+        <div id="details" class="details py-5">
             <h5 class="h5 text-danger text-center font-weight-bold">zUA lOPANGO WORKS SIMPLY IN THESE 4 STEPS</h5>
             <div class="px-5 details-content">
                 <div class="d-flex flex-column justify-content-center align-items-center details-elmt">
