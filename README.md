@@ -9,7 +9,7 @@
 >>> ![screenshot](assets/cap-desk.PNG)
 >>> ![screenshot](assets/cap-desk3.PNG)
 >>> ![screenshot](assets/cap-desk-results.PNG)
->>> ![screenshot](assets/cap-desk-mob.PNG)
+>>> ![screenshot](assets/cap-desk-details.PNG)
 
 >> 2. Tablet
 
