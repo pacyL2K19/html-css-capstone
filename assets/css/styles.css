@@ -74,6 +74,16 @@ header > nav > ul > li:hover {
   background-color: rgb(192, 172, 172);
 }
 
+.details-elmt {
+  transition: box-shadow 1s;
+}
+
+.details-elmt:hover {
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 0 8px gray;
+}
+
 .nav-1,
 .nav-2 {
   width: 100%;
