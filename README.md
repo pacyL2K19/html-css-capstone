@@ -6,18 +6,18 @@
 
 >> 1. Desktop
 
->>> ![screenshot](assets/img/cap-desk.PNG)
->>> ![screenshot](assets/img/cap-desk3.PNG)
->>> ![screenshot](assets/img/cap-desk-results.PNG)
->>> ![screenshot](assets/img/cap-desk-mob.PNG)
+>>> ![screenshot](assets/cap-desk.PNG)
+>>> ![screenshot](assets/cap-desk3.PNG)
+>>> ![screenshot](assets/cap-desk-results.PNG)
+>>> ![screenshot](assets/cap-desk-detais.PNG)
 
 >> 2. Tablet
 
->>> ![screenshot](assets/img/cap-tab.PNG)
+>>> ![screenshot](assets/cap-tab.PNG)
 
 >> 3. Mobile
 
->>> ![screenshot](assets/img/cap-mob.PNG)
+>>> ![screenshot](assets/cap-mob.PNG)
 
 ## Built With
 
