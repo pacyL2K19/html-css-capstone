@@ -33,6 +33,16 @@ header {
   background-repeat: no-repeat;
 }
 
+header > nav > ul > li {
+  transition: font-weight 0.5s, font-size 0.5s;
+}
+
+header > nav > ul > li:hover {
+  color: rgb(160, 199, 115);
+  font-weight: bold;
+  font-size: 17px;
+}
+
 .elmt-1 {
   background-color: rgb(230, 78, 78);
 }
