@@ -69,6 +69,10 @@ header {
   width: 100%;
 }
 
+.details-container {
+  width: 100%;
+}
+
 /* --------------- Media queries ------------------ */
 
 @media screen and (min-width: 1024px) {
