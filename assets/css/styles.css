@@ -64,6 +64,11 @@ header {
   background-color: rgb(192, 172, 172);
 }
 
+.nav-1,
+.nav-2 {
+  width: 100%;
+}
+
 /* --------------- Media queries ------------------ */
 
 @media screen and (min-width: 1024px) {
