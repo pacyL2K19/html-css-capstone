@@ -23,7 +23,7 @@ header {
 }
 
 .btn-how {
-  width: 30%;
+  width: 25%;
 }
 
 .header {
@@ -62,4 +62,19 @@ header {
 .filter {
   margin-top: 80px;
   background-color: rgb(192, 172, 172);
+}
+
+/* --------------- Media queries ------------------ */
+
+@media screen and (min-width: 1024px) {
+  .search {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .btn-how {
+    width: 15%;
+    text-align: center;
+  }
 }
