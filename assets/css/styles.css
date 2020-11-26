@@ -93,6 +93,19 @@ header > nav > ul > li:hover {
   width: 100%;
 }
 
+.details-houses {
+  border-radius: 10px;
+  box-shadow: 0 0 8px gray;
+}
+
+.maps {
+  height: 250px;
+  width: 90%;
+  background-image: url(/assets/img/maps.png);
+  background-position: center;
+  background-size: cover;
+}
+
 /* --------------- Media queries ------------------ */
 
 @media screen and (min-width: 1024px) {
@@ -112,5 +125,10 @@ header > nav > ul > li:hover {
   .btn-submit {
     width: auto;
     height: 37px;
+  }
+
+  .maps {
+    height: 400px;
+    width: 96%;
   }
 }
