@@ -34,7 +34,7 @@ We built this solution using HTML and CSS helped by the Bootstrap framework
 [Live Demo Link](https://pacyl2k19.github.io/html-css-capstone/index.html)
 
 ## Loom Presentation
-https://www.loom.com/share/9903f347bfe34871a3468a862d41aace
+https://www.loom.com/share/4994b326447042d0a8a9ae104d2856b8
 
 ## Getting Started
 
