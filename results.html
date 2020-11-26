@@ -13,29 +13,29 @@
 <body>
     
     <header>
-        <nav class="d-flex mb-xs-3 flex-column flex-md-row justify-content-center justify-content-md-between align-items-md-center navbar">
+        <nav class="d-flex mb-xs-3 flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-lg-center navbar">
             <div class="d-flex mb-0 flex-row align-items-center logo-side">
                 <a href="index.html"><img src="./assets/img/logo.jpg" alt=" ... " class="mr-3 logo" /></a>
                 <h2 class="h3 text-light logo-title">zUA lOPANGO</h2>
             </div>
             <ul class="list-unstyled d-flex flex-row mx-0">
-                <li class="mx-3"><a class="text-light" href="index.html"><i class="fas fa-search"></i><span class="text-light d-none d-md-inline"> HOUSES</span></a></li>
-                <li class="mx-3"><a class="text-light" href="#details"><i class="far fa-user"></i><span class="text-light d-none d-md-inline"> ABOUT</span></a></li>
-                <li class="mx-3"><a class="text-light" href="#"><i class="fas fa-wifi"></i><span class="text-light d-none d-md-inline"> BLOG</span></a></li>
-                <li class="mx-3"><a class="text-light" href="#"><i class="fas fa-bars"></i><span class="text-light d-none d-md-inline"> MORE...</span></a></li>
+                <li class="mx-3"><a class="text-light" href="index.html"><i class="fas fa-search"></i><span class="text-light d-none d-lg-inline"> HOUSES</span></a></li>
+                <li class="mx-3"><a class="text-light" href="#details"><i class="far fa-user"></i><span class="text-light d-none d-lg-inline"> ABOUT</span></a></li>
+                <li class="mx-3"><a class="text-light" href="#"><i class="fas fa-wifi"></i><span class="text-light d-none d-lg-inline"> BLOG</span></a></li>
+                <li class="mx-3"><a class="text-light" href="#"><i class="fas fa-bars"></i><span class="text-light d-none d-lg-inline"> MORE...</span></a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <div class="py-3 px-3 filter">
-            <h3 class="h3 text-light">Filter by name, town, region or option</h3>
-            <form>
-                <div class="form-group">
+        <div class="mx-5 mx-lg-0 py-3 px-3 filter">
+            <h3 class="h3 text-secondary">Filter by name, town, region or option</h3>
+            <form class="d-flex flex-lg-row flex-column align-items-center mx-0 px-0 justify-content-lg-around">
+                <div class="col-lg-3 form-group">
                     <label for="inputAddresso">Key word</label>
                     <input type="text" class="form-control" id="inputAddresso" placeholder="Ex: 3 Pieces with bathroom">
-                    </div>
-                    <div class="form-row">
-                    <div class="form-group col-md-4">
+                </div>
+                <div class="col-lg-7 form-row">
+                    <div class="form-group col-lg-6">
                         <label for="inputStatei">Town</label>
                         <select id="inputStatei" class="form-control">
                             <option selected>Choose...</option>
@@ -46,7 +46,7 @@
                             <option>Boma</option>
                         </select>
                     </div>
-                    <div class="form-group col-md-4">
+                    <div class="form-group col-lg-6">
                         <label for="inputState">Options</label>
                         <select id="inputState" class="form-control">
                             <option selected>Choose...</option>
@@ -56,14 +56,14 @@
                         </select>
                     </div>
                 </div>
-                <button type="submit" class="btn btn-primary">Apply</button>
+                <button type="submit" class="btn btn-primary btn-submit mt-lg-3">Apply</button>
             </form>
         </div>
         <div class="my-2 px-3 d-flex flex-column justify-content-center">
-            <h3 class="h3 my-5 text-secondary">Search results found 4 houses</h3>
+            <h3 class="h3 my-5 text-secondary">Search results found 7 houses</h3>
             <div class="d-flex flex-column mx-auto">
-                <div class="d-flex flex-md-row flex-column my-3 row">
-                    <div class="my-3 mx-5 card" style="width: 18rem;">
+                <div class="d-flex flex-lg-row flex-column my-3 row">
+                    <div class="my-3 mx-1 card" style="width: 18rem;">
                         <a href="details.html"><img src="./assets/img/pexels-expect-best-323780.jpg" class="card-img-top" alt="..."></a>
                         <div class="card-body">
                           <h5 class="card-title">House for rent</h5>
@@ -75,7 +75,7 @@
                           <li class="list-group-item">12 Nganga</li>
                         </ul>
                     </div>
-                    <div class="my-3 mx-5 card" style="width: 18rem;">
+                    <div class="my-3 mx-1 card" style="width: 18rem;">
                         <a href="details.html"><img src="./assets/img/pexels-pixabay-164558.jpg" class="card-img-top" alt="..."></a>
                         <div class="card-body">
                           <h5 class="card-title">To Buy</h5>
@@ -87,9 +87,21 @@
                           <li class="list-group-item">12 Nganga</li>
                         </ul>
                     </div>
+                    <div class="my-3 mx-1 card" style="width: 18rem;">
+                        <a href="details.html"><img src="./assets/img/pexels-expect-best-323780.jpg" class="card-img-top" alt="..."></a>
+                        <div class="card-body">
+                          <h5 class="card-title">House for rent</h5>
+                          <p class="card-text">Furnished and luxurious apartment for up to 20 people, visit</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                          <li class="list-group-item">Kinshasa</li>
+                          <li class="list-group-item">Gombe, Blvd jun 30</li>
+                          <li class="list-group-item">12 Nganga</li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="d-flex flex-column my-3 flex-md-row row">
-                    <div class="my-3 mx-5 card" style="width: 18rem;">
+                <div class="d-flex flex-column my-3 flex-lg-row row">
+                    <div class="my-3 mx-1 card" style="width: 18rem;">
                         <a href="details.html"><img src="./assets/img/pexels-julia-kuzenkov-1974596.jpg" class="card-img-top" alt="..."></a>
                         <div class="card-body">
                           <h5 class="card-title">House for rent</h5>
@@ -101,7 +113,7 @@
                           <li class="list-group-item">12 Nganga</li>
                         </ul>
                     </div>
-                    <div class="my-3 mx-5 card" style="width: 18rem;">
+                    <div class="my-3 mx-1 card" style="width: 18rem;">
                         <a href="details.html"><img src="./assets/img/pexels-david-mcbee-1546166.jpg" class="card-img-top" alt="..."></a>
                         <div class="card-body">
                           <h5 class="card-title">House for rent</h5>
@@ -118,7 +130,7 @@
         </div>
     </main>
     <footer class="bg-dark footer">
-        <div class="d-flex flex-column flex-md-row justify-content-md-between justify-content-center footer-elmt-1">
+        <div class="d-flex flex-column flex-lg-row justify-content-lg-between justify-content-center footer-elmt-1">
             <div class="nav-1">
                 <ul class="list-unstyled py-3 border-top border-bottom d-flex justify-content-around flex-row">
                     <li><a href="#" class="text-light">HOME</a></li>
@@ -139,26 +151,26 @@
                 </ul>
             </div>
         </div>
-        <div class="d-flex flex-column flex-md-row col-sm-12 my-4 footer-elmt-2">
-            <div class="mx-auto col-md-4 justify-content-center form-footer">
+        <div class="d-flex flex-column flex-lg-row col-sm-12 my-4 footer-elmt-2">
+            <div class="mx-auto col-lg-4 justify-content-center form-footer">
                 <p class="text-center font-weight-bold text-light">SUBSCRIBE</p>
                 <form class="d-flex flex-row form-inline my-2 my-lg-0">
                     <input type="email" class="input-footer" />
                     <button class="ml-0 btn btn-footer btn-secondary my-2 my-sm-0" type="submit">Submit</button>
                 </form>
             </div>
-            <div class="mx-auto col-md-4 justify-content-center ">
+            <div class="mx-auto col-lg-4 justify-content-center ">
                 <p class="text-center font-weight-bold text-light">CONTACT</p>
                 <p class="text-center"><small class="mx-auto text-light">Have question or submission ?</small></p>
                 <p class="text-center"><a href="mailto:pacilinja2@gmail.com" class="text-danger">infos@zualopango.com</a></p>
             </div>
-            <div class="mx-auto col-md-4">
+            <div class="mx-auto col-lg-4">
                 <p class="text-center font-weight-bold text-light">ABOUT</p>
                 <p class="text-center text-light">zUA lOPANGO is an online service that allows users to find houses to buy or for rent quickly working on every devices</p>
             </div>
         </div>
-        <div class="bg-secondary py-4 d-flex flex-md-row flex-column footer-elmt-3">
-            <div class="col-md-6 social">
+        <div class="bg-secondary py-4 d-flex flex-lg-row flex-column footer-elmt-3">
+            <div class="col-lg-6 social">
                 <ul class="list-unstyled d-flex flex-row justify-content-center mx-0">
                     <li class="mx-4"><a class="text-light" href="#"><i class="fab fa-facebook-f"></i></a></li>
                     <li class="mx-4"><a class="text-light" href="#"><i class="fab fa-twitter"></i></a></li>
@@ -166,7 +178,7 @@
                     <li class="mx-4"><a class="text-light" href="#"><i class="fab fa-linkedin-in"></i></a></li>
                 </ul>
             </div>
-            <p class="col-md-6 text-light text-center">
+            <p class="col-lg-6 text-light text-center">
                 &copy; 2020 zUA lOPANGO - Designed by <a href="#">Pacifique Linjanja</a>
             </p>
         </div>
