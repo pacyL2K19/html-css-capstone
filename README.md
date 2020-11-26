@@ -2,7 +2,12 @@
 
 # House directory - HTML AND CSS Capstone Project
 
-> Built 3 pages for 3 versions : Mobile, Tablet and Desktop 
+> This project is the HTML and CSS capstone project, we built a house directory that allows users to find houses for rent or houses to buy, this project has 3 pages which are :
+
+- The search page: the main page where users can enter keywords to find houses that match their criteria
+- The search results page: This page displays the result of the entered keywords
+- The details page: which contains the details about the single item selected
+We built this solution using HTML and CSS helped by the Bootstrap framework 
 
 >> 1. Desktop
 
