@@ -107,3 +107,10 @@ header > nav > ul > li:hover {
     text-align: center;
   }
 }
+
+@media screen and (min-width: 768px) {
+  .btn-submit {
+    width: auto;
+    height: 37px;
+  }
+}
