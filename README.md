@@ -14,11 +14,11 @@ We built this solution using HTML and CSS helped by the Bootstrap framework
 >>> ![screenshot](assets/cap-desk.PNG)
 >>> ![screenshot](assets/cap-desk3.PNG)
 >>> ![screenshot](assets/cap-desk-results.PNG)
->>> ![screenshot](assets/cap-desk-detais.PNG)
+>>> ![screenshot](assets/desk-details.PNG)
 
 >> 2. Tablet
 
->>> ![screenshot](assets/cap-tab.PNG)
+>>> ![screenshot](assets/tab.PNG)
 
 >> 3. Mobile
 
