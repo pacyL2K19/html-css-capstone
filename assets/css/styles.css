@@ -1,0 +1,134 @@
+.logo {
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+}
+
+.logo-side {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+  background-color: rgb(230, 78, 78);
+}
+
+.search {
+  background-color: rgba(250, 250, 250, 0.7);
+  border: none;
+  border-radius: 10px;
+}
+
+.btn-submit {
+  width: 100%;
+}
+
+.btn-how {
+  width: 30%;
+}
+
+.header {
+  background-image: url(../img/backimage1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header > nav > ul > li {
+  transition: font-weight 0.5s, font-size 0.5s;
+}
+
+header > nav > ul > li:hover {
+  color: rgb(160, 199, 115);
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.elmt-1 {
+  background-color: rgb(230, 78, 78);
+}
+
+.elmt-2 {
+  background-color: rgb(168, 145, 145);
+}
+
+.elmt-3 {
+  background-color: rgb(136, 151, 214);
+}
+
+.elmt-1 img,
+.elmt-2 img,
+.elmt-3 img {
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+}
+
+.input-footer {
+  background-color: transparent;
+  border: 1px solid white;
+  height: 35px;
+}
+
+.filter {
+  margin-top: 80px;
+  background-color: rgb(233, 217, 217);
+}
+
+.details-elmt {
+  transition: box-shadow 1s;
+}
+
+.details-elmt:hover {
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 0 8px gray;
+}
+
+.nav-1,
+.nav-2 {
+  width: 100%;
+}
+
+.details-container {
+  width: 100%;
+}
+
+.details-houses {
+  border-radius: 10px;
+  box-shadow: 0 0 8px gray;
+}
+
+.maps {
+  height: 250px;
+  width: 90%;
+  background-image: url(/assets/img/maps.png);
+  background-position: center;
+  background-size: cover;
+}
+
+/* --------------- Media queries ------------------ */
+
+@media screen and (min-width: 1024px) {
+  .search {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .btn-how {
+    width: 15%;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .btn-submit {
+    width: auto;
+    height: 37px;
+  }
+
+  .maps {
+    height: 400px;
+    width: 96%;
+  }
+}

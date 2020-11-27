@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results</title>
+    <link rel="stylesheet" href="./assets/css/styles.css" class="css">
+    <link rel="stylesheet" href="https://use.typekit.net/pjb3esl.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+</head>
+<body>
+    
+    <header>
+        <nav class="d-flex mb-xs-3 flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-lg-center navbar">
+            <div class="d-flex mb-0 flex-row align-items-center logo-side">
+                <a href="index.html"><img src="./assets/img/logo.jpg" alt=" ... " class="mr-3 logo" /></a>
+                <h2 class="h3 text-light logo-title">zUA lOPANGO</h2>
+            </div>
+            <ul class="list-unstyled d-flex flex-row mx-0">
+                <li class="mx-3"><a class="text-light" href="index.html"><i class="fas fa-search"></i><span class="text-light d-none d-lg-inline"> HOUSES</span></a></li>
+                <li class="mx-3"><a class="text-light" href="#details"><i class="far fa-user"></i><span class="text-light d-none d-lg-inline"> ABOUT</span></a></li>
+                <li class="mx-3"><a class="text-light" href="#"><i class="fas fa-wifi"></i><span class="text-light d-none d-lg-inline"> BLOG</span></a></li>
+                <li class="mx-3"><a class="text-light" href="#"><i class="fas fa-bars"></i><span class="text-light d-none d-lg-inline"> MORE...</span></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="mx-5 mx-lg-0 py-3 px-3 filter">
+            <h3 class="h3 text-secondary">Filter by name, town, region or option</h3>
+            <form class="d-flex flex-lg-row flex-column align-items-center mx-0 px-0 justify-content-lg-around">
+                <div class="col-lg-3 form-group">
+                    <label for="inputAddresso">Key word</label>
+                    <input type="text" class="form-control" id="inputAddresso" placeholder="Ex: 3 Pieces with bathroom">
+                </div>
+                <div class="col-lg-7 form-row">
+                    <div class="form-group col-lg-6">
+                        <label for="inputStatei">Town</label>
+                        <select id="inputStatei" class="form-control">
+                            <option selected>Choose...</option>
+                            <option>Goma</option>
+                            <option>Lubumbashi</option>
+                            <option>Kinshasa</option>
+                            <option>Bukavu</option>
+                            <option>Boma</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-lg-6">
+                        <label for="inputState">Options</label>
+                        <select id="inputState" class="form-control">
+                            <option selected>Choose...</option>
+                            <option>To Buy</option>
+                            <option>For Rent</option>
+                            <option>Event</option>
+                        </select>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary btn-submit mt-lg-3">Apply</button>
+            </form>
+        </div>
+        <div class="my-2 px-3 d-flex flex-column justify-content-center">
+            <h3 class="h3 my-5 text-secondary">Search results found 5 houses</h3>
+            <div class="d-flex flex-column mx-auto">
+                <div class="d-flex flex-lg-row flex-column my-3 row">
+                    <div class="my-3 mx-1 card" style="width: 18rem;">
+                        <a href="details.html"><img src="./assets/img/pexels-expect-best-323780.jpg" class="card-img-top" alt="..."></a>
+                        <div class="card-body">
+                          <h5 class="card-title">House for rent</h5>
+                          <p class="card-text">Furnished and luxurious apartment for up to 20 people, visit</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                          <li class="list-group-item">Kinshasa</li>
+                          <li class="list-group-item">Gombe, Blvd jun 30</li>
+                          <li class="list-group-item">12 Nganga</li>
+                        </ul>
+                    </div>
+                    <div class="my-3 mx-1 card" style="width: 18rem;">
+                        <a href="details.html"><img src="./assets/img/pexels-pixabay-164558.jpg" class="card-img-top" alt="..."></a>
+                        <div class="card-body">
+                          <h5 class="card-title">To Buy</h5>
+                          <p class="card-text">Furnished and luxurious apartment for up to 20 people, visit</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                          <li class="list-group-item">Kinshasa</li>
+                          <li class="list-group-item">Gombe, Blvd jun 30</li>
+                          <li class="list-group-item">12 Nganga</li>
+                        </ul>
+                    </div>
+                    <div class="my-3 mx-1 card" style="width: 18rem;">
+                        <a href="details.html"><img src="./assets/img/pexels-expect-best-323780.jpg" class="card-img-top" alt="..."></a>
+                        <div class="card-body">
+                          <h5 class="card-title">House for rent</h5>
+                          <p class="card-text">Furnished and luxurious apartment for up to 20 people, visit</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                          <li class="list-group-item">Kinshasa</li>
+                          <li class="list-group-item">Gombe, Blvd jun 30</li>
+                          <li class="list-group-item">12 Nganga</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="d-flex flex-column my-3 flex-lg-row row">
+                    <div class="my-3 mx-1 card" style="width: 18rem;">
+                        <a href="details.html"><img src="./assets/img/pexels-julia-kuzenkov-1974596.jpg" class="card-img-top" alt="..."></a>
+                        <div class="card-body">
+                          <h5 class="card-title">House for rent</h5>
+                          <p class="card-text">Furnished and luxurious apartment for up to 20 people, visit</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                          <li class="list-group-item">Kinshasa</li>
+                          <li class="list-group-item">Gombe, Blvd jun 30</li>
+                          <li class="list-group-item">12 Nganga</li>
+                        </ul>
+                    </div>
+                    <div class="my-3 mx-1 card" style="width: 18rem;">
+                        <a href="details.html"><img src="./assets/img/pexels-david-mcbee-1546166.jpg" class="card-img-top" alt="..."></a>
+                        <div class="card-body">
+                          <h5 class="card-title">House for rent</h5>
+                          <p class="card-text">Furnished and luxurious apartment for up to 20 people, visit</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                          <li class="list-group-item">Kinshasa</li>
+                          <li class="list-group-item">Gombe, Blvd jun 30</li>
+                          <li class="list-group-item">12 Nganga</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="bg-dark footer">
+        <div class="d-flex flex-column flex-lg-row justify-content-lg-between justify-content-center footer-elmt-1">
+            <div class="nav-1">
+                <ul class="list-unstyled py-3 border-top border-bottom d-flex justify-content-around flex-row">
+                    <li><a href="#" class="text-light">HOME</a></li>
+                    <li><a href="#" class="text-light">SEARCH</a></li>
+                    <li><a href="#" class="text-light">ABOUT</a></li>
+                    <li><a href="#" class="text-light">ADVERTISE</a></li>
+                </ul>
+            </div>
+            <div class="mx-auto mb-3 elmt">
+                <img src="./assets/img/logo.jpg" alt=" .. " class="mx-auto logo" />
+            </div>
+            <div class="nav-2">
+                <ul class="list-unstyled py-3 border-top border-bottom d-flex justify-content-around flex-row">
+                    <li><a href="#" class="text-light">FACEBOOK</a></li>
+                    <li><a href="#" class="text-light">TWITTER</a></li>
+                    <li><a href="#" class="text-light">BLOG</a></li>
+                    <li><a href="#" class="text-light">GOOGLE+</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="d-flex flex-column flex-lg-row col-sm-12 my-4 footer-elmt-2">
+            <div class="mx-auto d-flex flex-column col-lg-4 justify-content-center form-footer">
+                <p class="text-center font-weight-bold text-light">SUBSCRIBE</p>
+                <form class="d-flex mx-auto flex-row form-inline my-2 my-lg-0">
+                    <input type="email" class="input-footer" />
+                    <button class="ml-0 btn btn-footer btn-secondary my-2 my-sm-0" type="submit">Submit</button>
+                </form>
+            </div>
+            <div class="mx-auto col-lg-4 justify-content-center ">
+                <p class="text-center font-weight-bold text-light">CONTACT</p>
+                <p class="text-center"><small class="mx-auto text-light">Have question or submission ?</small></p>
+                <p class="text-center"><a href="mailto:pacilinja2@gmail.com" class="text-danger">infos@zualopango.com</a></p>
+            </div>
+            <div class="mx-auto col-lg-4">
+                <p class="text-center font-weight-bold text-light">ABOUT</p>
+                <p class="text-center text-light">zUA lOPANGO is an online service that allows users to find houses to buy or for rent quickly working on every devices</p>
+            </div>
+        </div>
+        <div class="bg-secondary py-4 d-flex flex-lg-row flex-column footer-elmt-3">
+            <div class="col-lg-6 social">
+                <ul class="list-unstyled d-flex flex-row justify-content-center mx-0">
+                    <li class="mx-4"><a class="text-light" href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li class="mx-4"><a class="text-light" href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li class="mx-4"><a class="text-light" href="#"><i class="fab fa-instagram-square"></i></a></li>
+                    <li class="mx-4"><a class="text-light" href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                </ul>
+            </div>
+            <p class="col-lg-6 text-light text-center">
+                &copy; 2020 zUA lOPANGO - Designed by <a href="#">Pacifique Linjanja</a>
+            </p>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/0348c0adc9.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</body>
+</html>
